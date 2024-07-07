@@ -77,11 +77,9 @@ function SelectedContact({ selectedContactId, setSelectedContactId}) {
             <td>bs</td>
             <td>{contact.company.bs}</td>
           </tr>
-          <tr>
-            <button onClick={() => setSelectedContactId(null)}>Return</button>
-          </tr>
         </tbody>
       </table>
+      <button onClick={() => setSelectedContactId(null)}>Return</button>
       </>
     )
   }
